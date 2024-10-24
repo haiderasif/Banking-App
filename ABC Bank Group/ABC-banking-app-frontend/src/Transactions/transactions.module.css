@@ -1,0 +1,58 @@
+.transCont {
+    display: flex;
+    width: 60%;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: left;
+    align-items: center;
+    margin: 30px;
+    background-color: #eaf3f8;
+}
+
+
+.col3 {
+    background-color: white;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+  .card
+  {
+    display: flex;
+    width: 90%;
+    gap: 10px;
+    justify-content: left;    
+    margin: 30px;
+    background-color: #36e6ca;
+    color: black;
+    border-radius: 20px;
+  }
+  
+  .submitButton {
+    background-color: #fb816e;
+    color: white;
+    cursor: pointer;
+    font-size: 18px !important; 
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  @media (max-width: 600px) {
+    .transCont {      
+      width: 100%;   
+      margin: 0px;   
+  }
+  .card
+  {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: left;    
+    margin: 10px;
+    background-color: #36e6ca;
+    color: black;
+    border-radius: 20px;
+  }
+  
+  }

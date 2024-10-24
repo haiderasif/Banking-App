@@ -1,0 +1,17 @@
+{
+  "name": "banking-app",
+  "version": "1.0.0",
+  "description": "this is sample project ",
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js"
+  },
+  "author": "aniruddha kudalkar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase": "^10.7.1",
+    "pg": "^8.7.3"
+  }
+}

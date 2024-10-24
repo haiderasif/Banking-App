@@ -1,0 +1,93 @@
+.dashCont {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: left;
+  align-items: center;
+  margin: 30px;
+  background-color: #eaf3f8;
+}
+
+
+.col3 {
+  background-color: white;
+  margin-left: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Add these styles to your existing CSS file, or create a new CSS file for the dashboard if needed */
+
+.sidebar {
+  min-height: 100vh; 
+  height: 100%;
+  background-color: #eceaea ;
+  padding-top: 40px;
+  padding-left: 40px;  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: -10px;
+}
+
+.sidebar div {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  margin-bottom: 10px;
+}
+
+.sidebarLink{
+  padding-top: 30px;
+}
+
+.sidebar div:hover {
+  color: #fb816e;
+  cursor: pointer;
+}
+.submitButton {
+  background-color: #fb816e;
+  color: white;
+  cursor: pointer;
+  font-size: 18px !important; 
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+.transactionsection
+{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: left;
+  align-items: center;
+  margin: 30px;
+  background-color: #eaf3f8;
+}
+input[type]  {
+  width: 100%;
+  font-size: 2em;
+  margin-top: 8px;
+}
+/* Add this CSS to your dashboard.module.css or equivalent file */
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none !important;
+  }
+  .col3 {
+    background-color: white;
+    margin-left: 0;
+    padding: 20px;
+  }
+  .transactionsection
+{
+  display: block;
+  margin: 0;
+}
+.dashCont {
+  margin: 0;
+  width: 100%;
+}
+}
